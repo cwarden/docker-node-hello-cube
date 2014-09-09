@@ -1,6 +1,6 @@
 FROM    node:latest
 
-MAINTAINER iofjuupasli <iofjuupasli@gmail.com>
+MAINTAINER Christian G. Warden <cwarden@xerus.org>
 
 ADD . /src
 RUN cd /src; npm install
